@@ -16,20 +16,20 @@ namespace SortingAlgorithem
             Console.WriteLine("Select 2 for insertion sort");
             // write in code for bogo sort
             string choice = Console.ReadLine();
-
-            switch (choice)
-            {
-                case "1":
-                    bubbleSort(list);
-                    break;
-                case "2":
-                    insertionSort(list);
-                    break;
-                default:
-                    Console.WriteLine("Not a valid input. Select 1 for bubble sort or 2 for insertion sort.");
-                    break;
-            }
-
+         
+                switch (choice)
+                {
+                    case "1":
+                        bubbleSort(list);
+                        break;
+                    case "2":
+                        insertionSort(list);
+                        break;
+                    default:
+                        Console.WriteLine("Not a valid input. Select 1 for bubble sort or 2 for insertion sort.");
+                        break;
+                }
+                 
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
         }
